@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 using static Interop;
 

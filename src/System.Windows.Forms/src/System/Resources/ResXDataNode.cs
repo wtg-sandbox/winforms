@@ -17,6 +17,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
+using System.Windows.Forms.Resources;
 
 namespace System.Resources
 {
@@ -355,7 +356,10 @@ namespace System.Resources
 
                     using (MemoryStream ms = new MemoryStream())
                     {
+#pragma warning disable SYSLIB0011 // Type or member is obsolete
                         binaryFormatter.Serialize(ms, value);
+#pragma warning restore SYSLIB0011 // Type or member is obsolete
+
                         nodeInfo.ValueData = ToBase64WrappedString(ms.ToArray());
                     }
 
@@ -392,7 +396,9 @@ namespace System.Resources
                     IFormatter formatter = binaryFormatter;
                     if (serializedData != null && serializedData.Length > 0)
                     {
+#pragma warning disable SYSLIB0011 // Type or member is obsolete
                         result = formatter.Deserialize(new MemoryStream(serializedData));
+#pragma warning restore SYSLIB0011 // Type or member is obsolete
                         if (result is ResXNullRef)
                         {
                             result = null;

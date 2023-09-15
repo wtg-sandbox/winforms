@@ -3,6 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.ComponentModel;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {
@@ -15,7 +16,7 @@ namespace System.Windows.Forms
 
         protected override string GetLocalizedString(string value)
         {
-            return SR.GetResourceString(value);
+            return value; //SR.GetResourceString(value);
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Automation;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

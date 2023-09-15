@@ -4,6 +4,7 @@
 
 using System.Drawing;
 using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 
 namespace System.Windows.Forms

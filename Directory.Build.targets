@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <Import Project="$(RepositoryEngineeringDir)CodeStyle.targets" />
-  <Import Project="Sdk.targets" Sdk="Microsoft.DotNet.Arcade.Sdk" />
-  <Import Project="$(RepositoryEngineeringDir)packageContent.targets" />
-  <Import Project="$(RepositoryEngineeringDir)versioning.targets" />
-  <Import Project="$(RepositoryEngineeringDir)ApiCompatibility\PublicApiAnalyzer.targets" />
-
-  <!-- to prevent using MS.NC.Platforms from SDK, which is lagging behind the version that WinForms gets from the CoreFx packages -->
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="$(MicrosoftNETCorePlatformsPackageVersion)" />
-  </ItemGroup>
-
-  <!-- Set code coverage properties that reference properties not available in Directory.Build.props -->
-  <PropertyGroup Condition="'$(Coverage)' == 'true'">
-    <CoverletOutput>$(TargetDir)coverage\$(MSBuildProjectName).coverage</CoverletOutput>
-  </PropertyGroup>
-
-  <Target Name="InstrumentModulesNoBuildBeforeTest" Condition="'$(CollectCoverage)' == 'true'" BeforeTargets="RunTests">
-    <CallTarget Targets="InstrumentModulesAfterBuild" />
-  </Target>
-
-  <Target Name="GenerateCoverageResultAfterTest" Condition="'$(CollectCoverage)' == 'true'" AfterTargets="RunTests">
-    <CallTarget Targets="GenerateCoverageResult" />
-  </Target>
-
-  <ItemGroup>
-    <!-- Set TargetingPackVersion -->
-    <FrameworkReference Update="Microsoft.NETCore.App" 
-      Condition=" '$(MicrosoftNETCoreAppRefPackageVersion)'!='' And $(TargetFramework.StartsWith('netcoreapp3.')) ">
-    <TargetingPackVersion>$(MicrosoftNETCoreAppRefPackageVersion)</TargetingPackVersion>
-    </FrameworkReference>
-  </ItemGroup>
-
-  <PropertyGroup>
-    <!-- Set RuntimeFrameworkVersion to MicrosoftNETCoreAppRuntimewinx64PackageVersion from Core Setup to prevent large SDK cycle -->
-    <RuntimeFrameworkVersion Condition="'$(MicrosoftNETCoreAppRuntimewinx64PackageVersion)'!='' And $(TargetFramework.StartsWith('netcoreapp3.')) ">$(MicrosoftNETCoreAppRuntimewinx64PackageVersion)</RuntimeFrameworkVersion>
-
-    <!-- If TargetFramework is not netcoreapp3.x, then reset RuntimeFrameworkVersion -->
-    <RuntimeFrameworkVersion Condition="!$(TargetFramework.StartsWith('netcoreapp3.'))" />
-  </PropertyGroup>
-
+  
+  
 </Project>

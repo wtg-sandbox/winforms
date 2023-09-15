@@ -11,6 +11,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

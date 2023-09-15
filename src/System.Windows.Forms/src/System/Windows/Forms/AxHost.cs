@@ -19,6 +19,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using System.Windows.Forms.ComponentModel.Com2Interop;
 using System.Windows.Forms.Design;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms
@@ -7282,7 +7283,9 @@ namespace System.Windows.Forms
                 BinaryFormatter formatter = new BinaryFormatter();
                 try
                 {
+#pragma warning disable SYSLIB0011 // Type or member is obsolete
                     bag = (Hashtable)formatter.Deserialize(stream);
+#pragma warning restore SYSLIB0011 // Type or member is obsolete
                 }
                 catch
                 {
@@ -7327,7 +7330,9 @@ namespace System.Windows.Forms
             internal void Write(Stream stream)
             {
                 BinaryFormatter formatter = new BinaryFormatter();
+#pragma warning disable SYSLIB0011 // Type or member is obsolete
                 formatter.Serialize(stream, bag);
+#pragma warning restore SYSLIB0011 // Type or member is obsolete
             }
         }
 

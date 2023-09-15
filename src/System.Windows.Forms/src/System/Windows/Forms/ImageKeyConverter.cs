@@ -5,6 +5,7 @@
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Globalization;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

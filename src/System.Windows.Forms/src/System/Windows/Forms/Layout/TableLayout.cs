@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Drawing;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms.Layout
 {

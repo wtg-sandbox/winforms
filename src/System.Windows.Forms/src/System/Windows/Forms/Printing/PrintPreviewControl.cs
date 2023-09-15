@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

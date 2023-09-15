@@ -6,7 +6,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Runtime.InteropServices;
-
+using System.Windows.Forms.Resources;
 namespace System.Windows.Forms.Design
 {
     /// <summary>

@@ -4,6 +4,7 @@
 
 using System.ComponentModel;
 using System.IO;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

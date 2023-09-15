@@ -9,6 +9,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Automation;
+using System.Windows.Forms.Resources;
 using Accessibility;
 
 namespace System.Windows.Forms

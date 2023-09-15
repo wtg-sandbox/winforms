@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms.Layout;
 using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 using Directory = System.IO.Directory;
 using static Interop;

@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using Accessibility;
 using static Interop;
 

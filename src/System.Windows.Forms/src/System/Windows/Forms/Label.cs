@@ -11,6 +11,8 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms.Automation;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
+
 using static Interop;
 
 namespace System.Windows.Forms

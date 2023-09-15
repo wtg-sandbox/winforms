@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

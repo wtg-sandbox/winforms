@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing.Design;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

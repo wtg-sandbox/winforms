@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 
 ///  this is the UBER container for ToolStripPanels.
 namespace System.Windows.Forms

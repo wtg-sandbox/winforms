@@ -8,6 +8,7 @@ namespace System.Windows.Forms
     using System.Drawing;
     using System.ComponentModel;
     using System.Windows.Forms.Design;
+    using System.Windows.Forms.Resources;
 
     /// <devdoc/>
     [ToolStripItemDesignerAvailability(ToolStripItemDesignerAvailability.ToolStrip)]

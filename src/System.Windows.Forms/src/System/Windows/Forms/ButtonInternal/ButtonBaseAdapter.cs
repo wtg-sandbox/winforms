@@ -9,6 +9,7 @@ using System.Drawing.Text;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms.ButtonInternal
 {

@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 
 namespace System.Windows.Forms

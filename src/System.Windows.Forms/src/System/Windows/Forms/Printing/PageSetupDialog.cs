@@ -7,6 +7,7 @@ using System.Drawing.Printing;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

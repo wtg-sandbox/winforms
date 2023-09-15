@@ -5,6 +5,7 @@
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Threading;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

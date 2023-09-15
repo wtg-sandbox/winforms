@@ -11,6 +11,7 @@ using System.Drawing.Design;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

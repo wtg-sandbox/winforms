@@ -3,6 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
+using System.Windows.Forms.Resources;
 using static Interop.Mshtml;
 
 namespace System.Windows.Forms

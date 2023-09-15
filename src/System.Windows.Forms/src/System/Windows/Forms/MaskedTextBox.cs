@@ -10,6 +10,8 @@ using System.Drawing.Design;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms.Resources;
+
 using static Interop;
 
 namespace System.Windows.Forms

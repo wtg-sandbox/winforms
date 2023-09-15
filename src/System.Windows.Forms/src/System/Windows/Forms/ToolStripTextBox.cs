@@ -8,6 +8,7 @@ using System.Drawing.Design;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Design;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 using static Interop;
 

@@ -10,6 +10,7 @@ using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms.Internal;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 

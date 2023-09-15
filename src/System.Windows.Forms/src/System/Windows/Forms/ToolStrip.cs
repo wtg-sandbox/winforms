@@ -15,6 +15,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 using static Interop;
 

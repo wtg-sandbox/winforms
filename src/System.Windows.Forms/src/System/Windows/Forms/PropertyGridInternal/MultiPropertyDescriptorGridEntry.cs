@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Diagnostics;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms.PropertyGridInternal
 {

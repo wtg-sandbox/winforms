@@ -20,6 +20,7 @@ using System.Threading;
 using System.Windows.Forms.Automation;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using Accessibility;
 using Microsoft.Win32;
 using static Interop;

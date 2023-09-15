@@ -16,6 +16,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms.ComponentModel.Com2Interop;
 using System.Windows.Forms.Design;
 using System.Windows.Forms.PropertyGridInternal;
+using System.Windows.Forms.Resources;
 using Microsoft.Win32;
 using static Interop;
 

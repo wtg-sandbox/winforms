@@ -9,6 +9,7 @@ using System.Drawing.Design;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

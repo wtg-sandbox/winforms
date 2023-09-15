@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 using System.ComponentModel;
-
+using System.Windows.Forms.Resources;
 namespace System.Windows.Forms
 {
     /// <summary>

@@ -12,6 +12,8 @@ using System.Drawing.Design;
 using System.Drawing.Imaging;
 using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
+
 using static Interop;
 
 namespace System.Windows.Forms

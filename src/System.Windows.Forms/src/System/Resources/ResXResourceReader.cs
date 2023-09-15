@@ -11,6 +11,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Windows.Forms;
+using System.Windows.Forms.Resources;
 using System.Xml;
 
 namespace System.Resources

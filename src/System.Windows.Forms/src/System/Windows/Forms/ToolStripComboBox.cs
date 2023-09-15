@@ -9,6 +9,7 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Design;
 using System.Globalization;
 using System.Windows.Forms.Design;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

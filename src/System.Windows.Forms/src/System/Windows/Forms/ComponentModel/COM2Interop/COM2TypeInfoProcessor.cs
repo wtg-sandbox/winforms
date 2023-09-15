@@ -10,6 +10,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
+using System.Windows.Forms.Resources;
 using Hashtable = System.Collections.Hashtable;
 
 namespace System.Windows.Forms.ComponentModel.Com2Interop

@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

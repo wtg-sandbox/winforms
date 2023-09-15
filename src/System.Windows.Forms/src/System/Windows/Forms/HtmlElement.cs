@@ -5,6 +5,7 @@
 using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 using static Interop.Mshtml;
 
 namespace System.Windows.Forms

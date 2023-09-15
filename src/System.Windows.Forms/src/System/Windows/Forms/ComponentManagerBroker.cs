@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Globalization;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

@@ -5,6 +5,7 @@
 //#define LAYOUT_PERFWATCH
 
 using System.Drawing;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms.Layout
 {

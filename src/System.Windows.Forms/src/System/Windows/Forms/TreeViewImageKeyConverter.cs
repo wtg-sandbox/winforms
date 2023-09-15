@@ -6,7 +6,7 @@ namespace System.Windows.Forms
 {
     using System.ComponentModel;
     using System.Globalization;
-
+    using System.Windows.Forms.Resources;
     /// <summary>
     ///  ImageIndexConverter is a class that can be used to convert
     ///  image index values one data type to another.

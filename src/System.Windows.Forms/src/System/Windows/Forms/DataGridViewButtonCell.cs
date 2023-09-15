@@ -9,6 +9,7 @@ using System.Globalization;
 using System.Windows.Forms.ButtonInternal;
 using System.Windows.Forms.Internal;
 using System.Windows.Forms.VisualStyles;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

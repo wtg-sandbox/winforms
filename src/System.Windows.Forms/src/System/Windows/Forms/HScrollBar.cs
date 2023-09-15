@@ -4,6 +4,7 @@
 
 using System.Drawing;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Drawing.Design;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.Design;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms.ComponentModel.Com2Interop
 {

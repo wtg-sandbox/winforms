@@ -8,6 +8,7 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Globalization;
 using System.Drawing;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

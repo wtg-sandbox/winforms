@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

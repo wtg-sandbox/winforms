@@ -9,6 +9,7 @@ using System.Drawing.Design;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms.Layout;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

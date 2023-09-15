@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
 using System.Runtime.CompilerServices;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

@@ -4,6 +4,7 @@
 
 using System.Collections;
 using System.Diagnostics;
+using System.Windows.Forms.Resources;
 using static Interop.Mshtml;
 
 namespace System.Windows.Forms

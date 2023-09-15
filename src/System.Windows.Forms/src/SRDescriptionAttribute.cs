@@ -3,6 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.ComponentModel;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {
@@ -18,7 +19,7 @@ namespace System.Windows.Forms
                 if (!replaced)
                 {
                     replaced = true;
-                    base.DescriptionValue = SR.GetResourceString(base.Description);
+                    base.DescriptionValue = base.Description; //SR.GetResourceString(base.Description);
                 }
                 return base.Description;
             }

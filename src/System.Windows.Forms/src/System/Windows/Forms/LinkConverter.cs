@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.ComponentModel.Design.Serialization;
 using System.Globalization;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {

@@ -8,6 +8,7 @@ using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Windows.Forms.Resources;
 using static Interop;
 using static Interop.Mshtml;
 using IComDataObject = System.Runtime.InteropServices.ComTypes.IDataObject;

@@ -5,6 +5,7 @@
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Windows.Forms.Resources;
 
 namespace System.Windows.Forms
 {
@@ -47,7 +48,7 @@ namespace System.Windows.Forms
             object resourceObject = null;
             try
             { resourceObject = SR.ResourceManager.GetObject(name); }
-            catch (Resources.MissingManifestResourceException) { }
+            catch (Exception) { }
             return resourceObject;
         }
     }

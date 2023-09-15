@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CLSCompliant>true</CLSCompliant>
@@ -10,23 +9,9 @@
     <DefineConstants>$(DefineConstants);DRAWING_DESIGN_NAMESPACE;OPTIMIZED_MEASUREMENTDC;</DefineConstants>
     <Win32Manifest>Resources\System\Windows\Forms\XPThemes.manifest</Win32Manifest>
     <Deterministic>true</Deterministic>
-    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
-    <UsePublicApiAnalyzers>true</UsePublicApiAnalyzers>
+    <!--<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <UsePublicApiAnalyzers>true</UsePublicApiAnalyzers>-->
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Accessibility\src\Accessibility.ilproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Win32.Registry" Version="$(MicrosoftWin32RegistryPackageVersion)" />
-    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="$(MicrosoftWin32SystemEventsPackageVersion)" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="$(SystemConfigurationConfigurationManagerPackageVersion)" />
-    <PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonPackageVersion)" />
-    <PackageReference Include="System.Resources.Extensions" Version="$(SystemResourcesExtensionsPackageVersion)" />
-    <PackageReference Include="System.Windows.Extensions" Version="$(SystemWindowsExtensionsPackageVersion)" />
-  </ItemGroup>
-
   <ItemGroup>
     <Compile Include="..\..\Common\src\ClientUtils.cs" Link="Common\ClientUtils.cs" />
     <Compile Include="..\..\Common\src\CommonUnsafeNativeMethods.cs" Link="misc\CommonUnsafeNativeMethods.cs" />
@@ -45,22 +30,17 @@
     <Compile Include="..\..\Common\src\Interop\**\*.cs">
       <Link>Interop\%(RecursiveDir)\%(Filename)%(Extension)</Link>
     </Compile>
+    <EmbeddedResource Remove="Resources\SR.resx" />
     <Compile Include="..\..\Common\src\Microsoft\Win32\SafeHandles\CoTaskMemSafeHandle.cs" Link="Microsoft\Win32\SafeHandles\CoTaskMemSafeHandle.cs" />
   </ItemGroup>
-
   <ItemGroup>
-    <EmbeddedResource Update="Resources\SR.resx">
-      <GenerateSource>true</GenerateSource>
-      <Namespace>System</Namespace>
-    </EmbeddedResource>
-     <EmbeddedResource Update="Resources\System\Windows\Forms\mdiwindowdialog.resx">
+    <EmbeddedResource Update="Resources\System\Windows\Forms\mdiwindowdialog.resx">
       <LogicalName>System.Windows.Forms.MdiWindowDialog.resources</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\System\Windows\Forms\PrintPreviewDialog.resx">
       <LogicalName>System.Windows.Forms.PrintPreviewDialog.resources</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="Resources\System\Windows\Forms\Animation.ico">
       <LogicalName>System.Windows.Forms.Animation</LogicalName>
@@ -647,5 +627,28 @@
     <EmbeddedResource Include="Resources\System\Windows\Forms\ToolStrip\blanktoolStrip.ico">
       <LogicalName>System.Windows.Forms.blank</LogicalName>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="7.0.0" />
+    <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
+    <PackageReference Include="Accessibility" Version="4.6.0-preview3-27504-2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SR.resx">
+      <GenerateSource>true</GenerateSource>
+      <Namespace>System</Namespace>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SR.Designer.cs</LastGenOutput>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\SR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SR.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

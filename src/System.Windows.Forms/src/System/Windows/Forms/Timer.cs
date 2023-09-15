@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

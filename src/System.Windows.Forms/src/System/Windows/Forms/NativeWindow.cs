@@ -10,6 +10,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Text;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

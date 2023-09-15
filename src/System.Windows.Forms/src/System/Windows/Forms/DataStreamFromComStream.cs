@@ -3,6 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.IO;
+using System.Windows.Forms.Resources;
 using static Interop;
 
 namespace System.Windows.Forms

@@ -8,8 +8,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Design;
 using System.Runtime.InteropServices;
-using Hashtable = System.Collections.Hashtable;
+using System.Windows.Forms.Resources;
 using static Interop;
+using Hashtable = System.Collections.Hashtable;
 
 namespace System.Windows.Forms
 {
